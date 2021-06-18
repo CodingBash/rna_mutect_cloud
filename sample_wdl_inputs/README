@@ -1,0 +1,5 @@
+This directory contains an example of the input.json and output.json for the RNA Mutect WDL file in a format acceptable by Terra Cloud Platform.
+
+RNA_Mutect-workspace-attributes.txt contains the workspace data needed to run RNA MuTect, specifically this file contains filepaths that can be included in the input.json via syntax ${workspace.ATTRIBUTE_KEY}. Most of the filepaths are Google Storage "gs" links which are acceptable if the pipeline is ran on Terra Cloud Platform. If the pipeline is ran on a non-Google environment, these files will need to be downloaded from Google Storage (see [tutorial](https://cloud.google.com/storage/docs/downloading-objects))
+
+Additionally, you will need to manually retrieve the GTEx Panel of Normals (PoN) file from dbGAP under "GTEX - /Genotype Files/phg000830.v1.GTEx_WES.panel-of-normals.c1.GRU.tar" given that you already have authorization to access GTEx.
