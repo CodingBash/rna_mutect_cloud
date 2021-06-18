@@ -86,5 +86,5 @@
     "CallingGroup_Workflow.tumorName": "${this.sample_id}",
     "CallingGroup_Workflow.txMode": "EFFECT",
     "CallingGroup_Workflow.valdb": "${workspace.valdb}",
-    "CallingGroup_Workflow.workspaceTargetsIntervalList": "${workspace.whole_exome_gaf_and_broad_targets_chr_only}"
+    "CallingGroup_Workflow.workspaceTargetsIntervalList": "${workspace.whole_exome_gaf_and_broad_targets}"
 }
